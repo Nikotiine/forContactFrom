@@ -8,6 +8,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 app.use("/",routes);
 
-app.listen(3000, () => {
-    console.log("serveur ok sur localhost:3000");
+app.listen(3000,() => {
+    console.log("serveur ok ");
 });
