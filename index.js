@@ -1,4 +1,4 @@
-"use strict";
+/*"use strict";
 const express = require("express");
 const app = express();
 const cors = require("cors");
@@ -10,4 +10,4 @@ app.use("/",routes);
 
 app.listen(3000,() => {
     console.log("serveur ok ");
-});
+});*/

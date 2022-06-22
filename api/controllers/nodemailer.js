@@ -1,7 +1,7 @@
 require("dotenv").config();
 const nodemailer = require("nodemailer");
 const transporter = nodemailer.createTransport({
-    host: "node89-eu.n0c.com",
+    host: process.env.HOSTNAME,
     port: 587,
     secure: false, // upgrade later with STARTTLS
     auth: {
