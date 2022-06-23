@@ -6,7 +6,7 @@ const http =require('http');
 const routes = require("./api/route/index")
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: false }));
 app.use("/",routes);
 
 
